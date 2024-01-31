@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Quest Study Hub</string>
+    <string name="splash_txt">Quest Study Hub</string>
+    <string name="paper">Past Papers</string>
+    <string name="courses">All Courses</string>
+    <string name="calcu">Find GPA</string>
+    <string name="abo">About Me</string>
+    <string name="CS">Computer Science</string>
+    <string name="IT">Information Technology</string>
+    <string name="AI">Artificial Intelligence</string>
+    <string name="DS">Data Science</string>
+    <string name="CBS">Cyber Security</string>
+    <string name="SE">Software Engineering</string>
+    <string name="CIVIL">Civil Engineering</string>
+    <string name="CH">Chemical Engineering</string>
+    <string name="PHY">Physics</string>
+    <string name="CHEM">Chemistry</string>
+    <string name="ME">Mechanical Engineering</string>
+    <string name="EE">Electrical Engineering</string>
+    <string name="EEE">Energy Environment Engg.</string>
+    <string name="E_E">Electronic Engineering</string>
+    <string name="A_C_E">Automation Control Engg.</string>
+    <string name="BM">Biomedical Engineering</string>
+    <string name="F_E_T">Food Engineering Tech</string>
+    <string name="CSE">Computer Systems Engg.</string>
+    <string name="ESE">Energy Systems Engg.</string>
+    <string name="EME">Environmental Engineering</string>
+    <string name="IME">Industrail ManuFacturing Engg.</string>
+    <string name="TCE">Telecommunication Engineering</string>
+    <string name="MS">Mathematics and Statistics</string>
+    <string name="ENG">English</string>
+
+    <string name="subb1">Subject 1</string>
+    <string name="subb2">Subject 2</string>
+    <string name="subb3">Subject 3</string>
+    <string name="subb4">Subject 4</string>
+    <string name="subb5">Subject 5</string>
+    <string name="subb6">Subject 6</string>
+    <string name="subb7">Subject 7</string>
+    <string name="C.H">Enter C.H</string>
+    <string name="Q.P">Enter Q.P</string>
+
+    <string name="sub3">for 3 Subjects</string>
+    <string name="sub4">for 4 Subjects</string>
+    <string name="sub5">for 5 Subjects</string>
+    <string name="sub6">for 6 Subjects</string>
+    <string name="sub7">for 7 Subjects</string>
+    <string name="Calculate">Calculate</string>
+    <string name="seme1">Semester 1</string>
+    <string name="seme2">Semester 2</string>
+    <string name="seme3">Semester 3</string>
+    <string name="seme4">Semester 4</string>
+    <string name="seme5">Semester 5</string>
+    <string name="seme6">Semester 6</string>
+
+    <string name="txt"> Name : Sarmad Siyal\n RollNo : 21BS(CS)02\n\nI am student of Computer Science Department, studying in Quaid-e-Awam University of Engineering, Science and Technology NawabShah\nMy skills are Android App Development, Video editing with animation and programming with problems solving\nCurrently i works on Android App Development from last one year.\nThat is little about me\n\n                     Thanks.</string>
+
+</resources>

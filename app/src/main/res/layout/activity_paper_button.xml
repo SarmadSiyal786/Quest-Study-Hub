@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#1CA7E6">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context=".paper_Button">
+
+
+        <Button
+            android:id="@+id/btnCS"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="@drawable/buttons_design"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:textColor="#f0f0f0"
+            android:text="@string/CS"/>
+
+        <Button
+            android:id="@+id/btnIT"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttons_design"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:textColor="#f0f0f0"
+            android:text="@string/IT"/>
+
+        <Button
+            android:id="@+id/btnAI"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttons_design"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:textColor="#f0f0f0"
+            android:text="@string/AI"/>
+
+
+        <Button
+            android:id="@+id/btnENG"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="#f0f0f0"
+            android:background="@drawable/buttons_design"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:text="@string/ENG"/>
+
+        <Button
+            android:id="@+id/btnSE"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:background="@drawable/buttons_design"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:textColor="#f0f0f0"
+            android:text="@string/SE"/>
+
+        <Button
+            android:id="@+id/btnCSE"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:background="@drawable/buttons_design"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:textColor="#f0f0f0"
+            android:text="@string/CSE"/>
+
+        <Button
+            android:id="@+id/btnME"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:background="@drawable/buttons_design"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:textColor="#f0f0f0"
+            android:text="@string/ME"/>
+
+        <Button
+            android:id="@+id/btnEE"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:background="@drawable/buttons_design"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:textColor="#f0f0f0"
+            android:text="@string/EE"/>
+
+
+        <Button
+            android:id="@+id/btnE_E"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:background="@drawable/buttons_design"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:textColor="#f0f0f0"
+            android:text="@string/E_E"/>
+
+        <Button
+            android:id="@+id/btnTCE"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="#f0f0f0"
+            android:background="@drawable/buttons_design"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:text="@string/TCE"/>
+
+        <Button
+            android:id="@+id/btncivil"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="#f0f0f0"
+            android:background="@drawable/buttons_design"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:text="@string/CIVIL"/>
+
+
+
+
+        <Button
+            android:id="@+id/btnEME"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="#f0f0f0"
+            android:background="@drawable/buttons_design"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/EME"/>
+
+
+    </LinearLayout>
+</ScrollView>

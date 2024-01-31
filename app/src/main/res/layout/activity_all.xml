@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    tools:context=".activityAll">
+
+    <ImageView
+        android:id="@+id/quest"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/splash_shape"/>
+
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="95dp"
+        android:id="@+id/paper"
+        android:layout_alignBottom="@+id/quest"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="-140dp"
+        android:background="#03A9F4"
+        android:contentDescription="past papers"
+        android:scaleType="fitXY"
+        android:src="@drawable/past_paper" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/paper"
+        android:layout_marginBottom="-20dp"
+        android:text="@string/paper"
+        android:layout_marginLeft="27dp"
+        android:textColor="#f0f0f0"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="105dp"
+        android:id="@+id/course"
+        android:layout_alignBottom="@+id/quest"
+        android:layout_toRightOf="@+id/paper"
+        android:layout_marginLeft="27dp"
+        android:layout_marginBottom="-140dp"
+        android:contentDescription="past papers"
+        android:scaleType="fitXY"
+        android:background="#03A9F4"
+        android:src="@drawable/book" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/course"
+        android:layout_marginBottom="-20dp"
+        android:text="@string/courses"
+        android:layout_toRightOf="@+id/paper"
+        android:layout_marginLeft="38dp"
+        android:textColor="#f0f0f0"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="90dp"
+        android:id="@+id/calculator"
+        android:layout_alignBottom="@+id/quest"
+        android:layout_toRightOf="@+id/course"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="-135dp"
+        android:contentDescription="past papers"
+        android:scaleType="fitXY"
+        android:background="#03A9F4"
+        android:src="@drawable/calculator" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/calculator"
+        android:layout_alignBottom="@+id/calculator"
+        android:layout_marginBottom="-25dp"
+        android:text="@string/calcu"
+        android:textColor="#f0f0f0"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/about"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:layout_marginRight="10dp"
+        android:background="#03A9F4"
+        android:src="@drawable/shapes"
+        android:contentDescription="about"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/abo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="8dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#f0f0f0"
+        android:layout_marginBottom="-25dp"
+        android:layout_alignBottom="@+id/about"/>
+
+</RelativeLayout>

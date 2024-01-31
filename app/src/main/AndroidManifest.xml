@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuestStudyHub"
+        tools:targetApi="31">
+        <activity
+            android:name=".EnglishSemesters"
+            android:exported="false" />
+        <activity
+            android:name=".englishsem5"
+            android:exported="false" />
+        <activity
+            android:name=".englishsem4"
+            android:exported="false" />
+        <activity
+            android:name=".englishsem3"
+            android:exported="false" />
+        <activity
+            android:name=".englishsem1"
+            android:exported="false" />
+        <activity
+            android:name=".english_paper"
+            android:exported="false" />
+        <activity
+            android:name=".tele5"
+            android:exported="false" />
+        <activity
+            android:name=".tele4"
+            android:exported="false" />
+        <activity
+            android:name=".tele3"
+            android:exported="false" />
+        <activity
+            android:name=".tele2"
+            android:exported="false" />
+        <activity
+            android:name=".tele1"
+            android:exported="false" />
+        <activity
+            android:name=".mechanical6"
+            android:exported="false" />
+        <activity
+            android:name=".mechanical5"
+            android:exported="false" />
+        <activity
+            android:name=".mechanical4"
+            android:exported="false" />
+        <activity
+            android:name=".mechanical3"
+            android:exported="false" />
+        <activity
+            android:name=".mechanical2"
+            android:exported="false" />
+        <activity
+            android:name=".mechanical1"
+            android:exported="false" />
+        <activity
+            android:name=".It6"
+            android:exported="false" />
+        <activity
+            android:name=".It5"
+            android:exported="false" />
+        <activity
+            android:name=".It4"
+            android:exported="false" />
+        <activity
+            android:name=".It3"
+            android:exported="false" />
+        <activity
+            android:name=".It2"
+            android:exported="false" />
+        <activity
+            android:name=".It1"
+            android:exported="false" />
+        <activity
+            android:name=".enviro4"
+            android:exported="false" />
+        <activity
+            android:name=".enviro3"
+            android:exported="false" />
+        <activity
+            android:name=".enviro2"
+            android:exported="false" />
+        <activity
+            android:name=".enviro1"
+            android:exported="false" />
+        <activity
+            android:name=".electronic5"
+            android:exported="false" />
+        <activity
+            android:name=".electronic4"
+            android:exported="false" />
+        <activity
+            android:name=".electronic4"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".electronic3"
+            android:exported="false" />
+        <activity
+            android:name=".electronic2"
+            android:exported="false" />
+        <activity
+            android:name=".electronic1"
+            android:exported="false" />
+        <activity
+            android:name=".electrical3"
+            android:exported="false" />
+        <activity
+            android:name=".electrical2"
+            android:exported="false" />
+        <activity
+            android:name=".electrical1"
+            android:exported="false" />
+        <activity
+            android:name=".cs6"
+            android:exported="false" />
+        <activity
+            android:name=".cs5"
+            android:exported="false" />
+        <activity
+            android:name=".cs4"
+            android:exported="false" />
+        <activity
+            android:name=".cs3"
+            android:exported="false" />
+        <activity
+            android:name=".cs2"
+            android:exported="false" />
+        <activity
+            android:name=".cs1"
+            android:exported="false" />
+        <activity
+            android:name=".Civil6"
+            android:exported="false" />
+        <activity
+            android:name=".Civil5"
+            android:exported="false" />
+        <activity
+            android:name=".Civil4"
+            android:exported="false" />
+        <activity
+            android:name=".Civil3"
+            android:exported="false" />
+        <activity
+            android:name=".Civil2"
+            android:exported="false" />
+        <activity
+            android:name=".Civil1"
+            android:exported="false" />
+        <activity
+            android:name=".bcs6"
+            android:exported="false" />
+        <activity
+            android:name=".bcs5"
+            android:exported="false" />
+        <activity
+            android:name=".bcs4"
+            android:exported="false" />
+        <activity
+            android:name=".bcs3"
+            android:exported="false" />
+        <activity
+            android:name=".bcs2"
+            android:exported="false" />
+        <activity
+            android:name=".bcs1"
+            android:exported="false" />
+        <activity
+            android:name=".AI2"
+            android:exported="false" />
+        <activity
+            android:name=".AI1"
+            android:exported="false" />
+        <activity
+            android:name=".Sw5"
+            android:exported="false" />
+        <activity
+            android:name=".Sw4"
+            android:exported="false" />
+        <activity
+            android:name=".Sw3"
+            android:exported="false" />
+        <activity
+            android:name=".Sw2"
+            android:exported="false" />
+        <activity
+            android:name=".Sw1"
+            android:exported="false" />
+        <activity
+            android:name=".Civil_Engineering"
+            android:exported="false" />
+        <activity
+            android:name=".mechanical"
+            android:exported="false" />
+        <activity
+            android:name=".electronic"
+            android:exported="false" />
+        <activity
+            android:name=".electrical"
+            android:exported="false" />
+        <activity
+            android:name=".Enviromental"
+            android:exported="false" />
+        <activity
+            android:name=".TeleCommunication"
+            android:exported="false" />
+        <activity
+            android:name=".Artificial_Intelli"
+            android:exported="false" />
+        <activity
+            android:name=".Computer_Science"
+            android:exported="false" />
+        <activity
+            android:name=".Information_Tech"
+            android:exported="false" />
+        <activity
+            android:name=".Computer_System"
+            android:exported="false" />
+        <activity
+            android:name=".Software"
+            android:exported="false" />
+        <activity
+            android:name=".About_Me"
+            android:exported="false" />
+        <activity
+            android:name=".Subject_7"
+            android:exported="false" />
+        <activity
+            android:name=".Subject_6"
+            android:exported="false" />
+        <activity
+            android:name=".Subject_5"
+            android:exported="false" />
+        <activity
+            android:name=".Subject_4"
+            android:exported="false" />
+        <activity
+            android:name=".Subject_3"
+            android:exported="false" />
+        <activity
+            android:name=".GPA"
+            android:exported="false" />
+        <activity
+            android:name=".Enviroment_e"
+            android:exported="false" />
+        <activity
+            android:name=".Electronic_e"
+            android:exported="false" />
+        <activity
+            android:name=".Elecetric_e"
+            android:exported="false" />
+        <activity
+            android:name=".Ace_course"
+            android:exported="false" />
+        <activity
+            android:name=".Phy_course"
+            android:exported="false" />
+        <activity
+            android:name=".Ime_course"
+            android:exported="false" />
+        <activity
+            android:name=".Tce_course"
+            android:exported="false" />
+        <activity
+            android:name=".Fet_course"
+            android:exported="false" />
+        <activity
+            android:name=".Ms_course"
+            android:exported="false" />
+        <activity
+            android:name=".Me_course"
+            android:exported="false" />
+        <activity
+            android:name=".Es_course"
+            android:exported="false" />
+        <activity
+            android:name=".Eee_course"
+            android:exported="false" />
+        <activity
+            android:name=".Civil_course"
+            android:exported="false" />
+        <activity
+            android:name=".Chem_course"
+            android:exported="false" />
+        <activity
+            android:name=".Ch_course"
+            android:exported="false" />
+        <activity
+            android:name=".bme_course"
+            android:exported="false" />
+        <activity
+            android:name=".Cbr_course"
+            android:exported="false" />
+        <activity
+            android:name=".it_course"
+            android:exported="false" />
+        <activity
+            android:name=".Ai_course"
+            android:exported="false" />
+        <activity
+            android:name=".se_course"
+            android:exported="false" />
+        <activity
+            android:name=".cse_course"
+            android:exported="false" />
+        <activity
+            android:name=".cs_course"
+            android:exported="false" />
+        <activity
+            android:name=".course_Button"
+            android:exported="false" />
+        <activity
+            android:name=".paper_Button"
+            android:exported="false" />
+        <activity
+            android:name=".courses"
+            android:exported="false" />
+        <activity
+            android:name=".activityAll"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
